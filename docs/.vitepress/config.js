@@ -4,10 +4,10 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'code with monu',
     nav: [
-      { text: 'Guide', link: '/guide' }
+      { text: 'Guide', link: '/Git and Github/Git.md' }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/aadltya' },
+      { icon: 'github', link: 'https://github.com/aadltya/cwm-docs' },
       { icon: 'twitter', link: 'https://twitter.com/aditya_swamii' },
     ],
     sidebar: [

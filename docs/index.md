@@ -2,17 +2,17 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  name: Learn with me
+  text: Advance topics beyond imagination
+  tagline: 
   image:
-    src: /logo.png
-    alt: VitePress
+    src: /codelogo.png
+    alt: logo
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/what-is-vitepress
+      link: /Git and Github/Git.md
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/aadltya/
 ---
