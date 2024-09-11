@@ -5,7 +5,7 @@ Git and people who use it talk in a different terminology. For example they don�
 ## Check your git version
 To check your git version, you can run the following command:
 
-```
+```bash
 git --version
 ```
 This command will display the version of git installed on your system. Git is a very stable software and don’t get any breaking changes in majority of the cases, at least in my experience.
@@ -15,7 +15,7 @@ A repository is a collection of files and directories that are stored together. 
 
 There is a difference between a software on your system vs tracking a particular folder on your system. At any point you can run the following command to see the current state of your repository:
 
-```
+```bash
 git status
 ```
 <img src="https://docs.chaicode.com/_astro/repo.CQAut4Jw_1Cvwlz.svg">
@@ -25,21 +25,21 @@ Not all folders are meant to be tracked by git. Here we can see that all green f
 Github has a lot of settings that you can change. You can change your username, email, and other settings. Whenever you checkpoint your changes, git will add some information about your such as your username and email to the commit. There is a git config file that stores all the settings that you have changed. You can make settings like what editor you would like to use etc. There are some global settings and some repository specific settings.
 
 Let’s setup your email and username in this config file. I would recommend you to create an account on github and then use the email and username that you have created.
-```
+```bash
 git config --global user.email "your-email@example.com"
 git config --global user.name "Your Name"
 ```
 
 Now you can check your config settings:
 
-```
+```bash
 git config --list
 ```
 
 ## Creating a repository
 Creating a repository is a process of creating a new folder on your system and initializing it as a git repository. It’s just regular folder to code your project, you are just asking git to track it. To create a repository, you can use the following command:
 
-```
+```bash
 git status
 git init
 ```
@@ -62,7 +62,7 @@ When you want to track a new folder, you first use `init` command to create a ne
 ## Stage
 Stage is a way to tell git to track a particular file or folder. You can use the following command to stage a file:
 
-```
+```bash
 git init
 git add <file> <file2>
 git status
@@ -70,14 +70,14 @@ git status
 Here we are initializing the repository and adding a file to the repository. Then we can see that the file is now being tracked by git. Currently our files are in staging area, this means that we have not yet committed the changes but are ready to be committed.
 
 ## Commit
-```
+```bash
 git commit -m "commit message"
 git status
 ```
 Here we are committing the changes to the repository. We can see that the changes are now committed to the repository. The `-m` flag is used to add a message to the commit. This message is a short description of the changes that were made. You can use this message to remember what the changes were. Missing the `-m` flag will result in an action that opens your default settings editor, which is usually VIM. We will change this to vscode in the next section.
 
 ## Logs
-```
+```bash
 git log
 ```
 This command will show you the history of your repository. It will show you all the commits that were made to the repository. You can use the `--oneline` flag to show only the commit message. This will make the output more compact and easier to read.
@@ -86,7 +86,7 @@ This command will show you the history of your repository. It will show you all 
 Gitignore is a file that tells git which files and folders to ignore. It is a way to prevent git from tracking certain files or folders. You can create a gitignore file and add list of files and folders to ignore by using the following command:
 
 Example:
-```
+```bash
 node_modules
 .env
 .vscode
