@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   themeConfig: {
-    siteTitle: 'code with monu',
+    siteTitle: 'code with me',
     nav: [
       { text: 'Guide', link: '/Git and Github/Git.md' }
     ],
@@ -17,15 +17,16 @@ export default defineConfig({
         items: [
           { text: 'Git and Github', link: '/Git%20and%20Github/Git.md' },
           { text: 'Terminology', link: '/Git%20and%20Github/terminology.md' },
-          { text: 'Git behind the scenes', link: '/Git%20and%20Github/Git-BTS.md' }
+          { text: 'Git behind the scenes', link: '/Git%20and%20Github/Git-BTS.md' },
+          { text: 'Branches in git', link: '/Git%20and%20Github/Branches-in-git.md' },
+          { text: 'diff stash and Tags', link: '/Git%20and%20Github/diff-stash-and-tags.md' },
         ]
       },
       {
         text: 'DevOps',
         collapsed: true,
         items: [
-          { text: 'Item C', link: '/item-c' },
-          { text: 'Item D', link: '/item-d' },
+          { text: 'comming soon', link: '/DevOps/cumingSoon.md' },
         ]
       }
     ],
