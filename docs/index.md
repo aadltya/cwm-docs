@@ -6,7 +6,7 @@ hero:
   text: Advance topics beyond imagination
   tagline: 
   image:
-    src: /codelogo.png
+    src: codelogo.png
     alt: logo
   actions:
     - theme: brand
