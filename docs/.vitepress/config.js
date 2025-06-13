@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  title: 'CWM',
+
   themeConfig: {
     siteTitle: 'code with me',
     nav: [
@@ -26,7 +28,8 @@ export default defineConfig({
         text: 'DevOps',
         collapsed: true,
         items: [
-          { text: 'comming soon', link: '/DevOps/cumingSoon.md' },
+          { text: 'Docker', link: '/DevOps/Docker.md' },
+          { text: 'Kubernetes', link: '/DevOps/Kubernetes.md' },
         ]
       }
     ],
