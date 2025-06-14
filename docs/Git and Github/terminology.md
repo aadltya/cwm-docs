@@ -18,7 +18,7 @@ There is a difference between a software on your system vs tracking a particular
 ```bash
 git status
 ```
-<img src="https://docs.chaicode.com/_astro/repo.CQAut4Jw_1Cvwlz.svg">
+<img src="https://docs.chaicode.com/_astro/repo-status.JIM1nCWI_Z205yrX.webp">
 Not all folders are meant to be tracked by git. Here we can see that all green folders are projects are getting tracked by git but red ones are not.
 
 ## Your config settings
@@ -50,12 +50,12 @@ git init
 commit is a way to save your changes to your repository. It is a way to record your changes and make them permanent. You can think of a commit as a snapshot of your code at a particular point in time. When you commit your changes, you are telling git to save them in a permanent way. This way, you can always go back to that point in time and see what you changed.
 
 Usual flow looks like this:
-<img src="https://docs.chaicode.com/_astro/commit.CZ_pUUof_1Y9b3g.svg">
+<img src="https://docs.chaicode.com/_astro/flow.DIk3TV2p_Zs00Un.webp">
 
 ## Complete git flow
 A complete git flow, along with pushing the code to github looks like this:
 
-<img src="https://docs.chaicode.com/_astro/gitflow.CjDHzFoj_dc900.svg">
+<img src="https://docs.chaicode.com/_astro/complete-flow.DYr-Pvsp_1IQISm.webp">
 
 When you want to track a new folder, you first use `init` command to create a new repository. Then you can use `add` command to add the folder to the `repository`. After that you can use `commit` command to save the changes. Finally you can use `push` command to push the changes to `github`. Of course there is more to it but this is the basic flow.
 

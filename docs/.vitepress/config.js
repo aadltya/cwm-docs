@@ -2,9 +2,14 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'CWM',
+  description: 'A documentation site for advanced topics in programming and Software Engineers.',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+  ],
 
   themeConfig: {
-    siteTitle: 'code with me',
+    siteTitle: 'Code with Me',
     nav: [
       { text: 'Guide', link: '/Git and Github/Git.md' }
     ],
@@ -12,9 +17,13 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/aadltya/cwm-docs' },
       { icon: 'twitter', link: 'https://twitter.com/aditya_swamii' },
     ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024 CWM',
+    },
     sidebar: [
       {
-        text: 'Git and Github',
+        text: 'Git',
         collapsed: true,
         items: [
           { text: 'Git and Github', link: '/Git%20and%20Github/Git.md' },

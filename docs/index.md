@@ -15,4 +15,22 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/aadltya/
+
+features:
+  - icon: 🚀
+    title: Advanced Tutorials
+    details: Dive into complex topics with step-by-step guides and practical examples.
+    link: /Git and Github/Git.md
+    linkText: Explore Tutorials
+  - icon: 📚
+    title: Comprehensive Resources
+    details: Access curated references, cheatsheets, and tools to accelerate learning.
+    link: /Git and Github/Git.md
+    linkText: View Resources
+  - icon: 💡
+    title: Community-Driven
+    details: Collaborate, ask questions, and share knowledge in our vibrant community.
+    link: https://github.com/aadltya/cwm-docs
+    linkText: Join Now
+
 ---
