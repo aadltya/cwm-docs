@@ -23,6 +23,14 @@ export default defineConfig({
     },
     sidebar: [
       {
+        text: 'Kubernetes',
+        collapsed: true,
+        items: [
+          { text: 'Kubernetes lvl 1', link: '/Kubernetes/Kubernetes-lvl-1.md' },
+          { text: 'Kubernetes lvl 2', link: '/Kubernetes/Kubernetes-lvl-2.md' },
+        ]
+      },
+      {
         text: 'Git',
         collapsed: true,
         items: [
@@ -38,7 +46,6 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Docker', link: '/DevOps/Docker.md' },
-          { text: 'Kubernetes', link: '/DevOps/Kubernetes.md' },
         ]
       },
       {

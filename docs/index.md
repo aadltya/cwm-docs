@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /Git-and-Github/Git.md
+      link: /Kubernetes/Kubernetes-lvl-1
     - theme: alt
       text: View on GitHub
       link: https://github.com/aadltya/
@@ -20,12 +20,12 @@ features:
   - icon: 🚀
     title: Advanced Tutorials
     details: Dive into complex topics with step-by-step guides and practical examples.
-    link: /Git and Github/Git.md
+    link: /Kubernetes/Kubernetes-lvl-1
     linkText: Explore Tutorials
   - icon: 📚
     title: Comprehensive Resources
     details: Access curated references, cheatsheets, and tools to accelerate learning.
-    link: /Git and Github/Git.md
+    link: /Kubernetes/Kubernetes-lvl-1
     linkText: View Resources
   - icon: 💡
     title: Community-Driven
