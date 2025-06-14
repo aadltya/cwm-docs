@@ -44,7 +44,7 @@ Everything is stored as key-value pairs in the tree object. The key is the file 
 ## Blob Object
 
 Blob Object is present in the tree object and contains the actual file content. This is the place where the file content is stored.
-<img src="https://docs.chaicode.com/_astro/gitinner.FqrAI_YK_1XyK1f.svg">
+<img src="https://docs.chaicode.com/_astro/git-behind-scenes.DjOkWmxn_2aCWmR.webp">
 
 
 ## Helpful Commands

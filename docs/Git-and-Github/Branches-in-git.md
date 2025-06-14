@@ -3,7 +3,7 @@
 ## Branches in git
 Branches are a way to work on different versions of a project at the same time. They allow you to create a separate line of development that can be worked on independently of the main branch. This can be useful when you want to make changes to a project without affecting the main branch or when you want to work on a new feature or bug fix.
 
-<img src="https://docs.chaicode.com/_astro/branches.yYu2erFZ_Z1NQDag.svg">
+<img src="https://docs.chaicode.com/_astro/branches.YOIsOP4X_Z2gjmSk.webp">
 Some developers can work on Header, some can work on Footer, some can work on Content, and some can work on Layout. This is a good example of how branches can be used in git.
 
 >the default branch used to be master, but it is now called main. There is nothing special about main, it is just a convention.
@@ -44,7 +44,7 @@ When you are done working on a branch, you can merge it back into the main branc
 git checkout main
 git merge bug-fix
 ```
-<img src="https://docs.chaicode.com/_astro/fast-merge.BnHH-KQa_ZuiFbN.svg">
+<img src="https://docs.chaicode.com/_astro/fast-forward-merge.2JLs9oN__176LJB.webp">
 
 Some points to note:
 
@@ -54,7 +54,7 @@ Some points to note:
 This is a fast-forward merge. It means that the commits in the `bug-fix` branch are directly merged into the `main` branch. This can be useful when you want to merge a branch that has already been pushed to the remote repository.
 
 ### Not fast-forward merge
-<img src="https://docs.chaicode.com/_astro/notfast-merge.C_ZAD9Zp_zJoWb.svg">
+<img src="https://docs.chaicode.com/_astro/three-way-merge.C3EirtdW_Z1P6LdI.webp">
 
 In this type of merge, the master branch also worked and have some commits that are not in the `bug-fix` branch. This is a not fast-forward merge.
 
@@ -69,7 +69,7 @@ If the command are same, what is the difference between fast-forward and not fas
 
 The difference is resolving the conflicts. In a fast-forward merge, there are no conflicts. But in a not fast-forward merge, there are conflicts, and there are no shortcuts to resolve them. You have to manually resolve the conflicts. Decide, what to keep and what to discard. VSCode has a built-in merge tool that can help you resolve the conflicts.
 
-<img src="https://docs.chaicode.com/_astro/conflict.-47xpPL4_ucXBc.svg">
+<img src="https://docs.chaicode.com/_astro/merge-conflict.DXsrSRd3_Z6K0BV.webp">
 
 ### Managing conflicts
 
