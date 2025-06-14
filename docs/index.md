@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /Git and Github/Git.md
+      link: /Git-and-Github/Git.md
     - theme: alt
       text: View on GitHub
       link: https://github.com/aadltya/

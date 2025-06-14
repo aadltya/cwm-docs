@@ -26,11 +26,11 @@ export default defineConfig({
         text: 'Git',
         collapsed: true,
         items: [
-          { text: 'Git and Github', link: '/Git%20and%20Github/Git.md' },
-          { text: 'Terminology', link: '/Git%20and%20Github/terminology.md' },
-          { text: 'Git behind the scenes', link: '/Git%20and%20Github/Git-BTS.md' },
-          { text: 'Branches in git', link: '/Git%20and%20Github/Branches-in-git.md' },
-          { text: 'diff stash and Tags', link: '/Git%20and%20Github/diff-stash-and-tags.md' },
+          { text: 'Git and Github', link: '/Git-and-Github/Git.md' },
+          { text: 'Branches in git', link: '/Git-and-Github/Branches-in-git.md' },
+          { text: 'Terminology', link: '/Git-and-Github/terminology.md' },
+          { text: 'Git behind the scenes', link: '/Git-and-Github/Git-BTS.md' },
+          { text: 'diff stash and Tags', link: '/Git-and-Github/diff-stash-and-tags.md' },
         ]
       },
       {
@@ -39,6 +39,13 @@ export default defineConfig({
         items: [
           { text: 'Docker', link: '/DevOps/Docker.md' },
           { text: 'Kubernetes', link: '/DevOps/Kubernetes.md' },
+        ]
+      },
+      {
+        text: 'WebSockets',
+        collapsed: true,
+        items: [
+          { text: 'Comming Soon', link: '/Websockets/soon.md' },
         ]
       }
     ],
