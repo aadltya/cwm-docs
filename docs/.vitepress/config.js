@@ -11,7 +11,7 @@ export default defineConfig({
   themeConfig: {
     siteTitle: 'Code with Me',
     nav: [
-      { text: 'Guide', link: '/Git and Github/Git.md' }
+      { text: 'Guide', link: '/Kubernetes/Kubernetes-lvl-1.md' },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/aadltya/cwm-docs' },

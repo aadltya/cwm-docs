@@ -449,7 +449,7 @@ The Kubernetes API is a crucial component of the control plane, exposed by the m
 2. **API Server Location**: To find where the control plane is running, you can use the `docker ps` command. This will show you the containers running on your local machine, including the Kubernetes API server.
 3. **API Endpoints**: The API server provides various endpoints for different Kubernetes resources. For example, you can access pod information using an endpoint like:
 
-```API
+```bash
 <https://127.0.0.1:50949/api/v1/namespaces/default/pods>
 ```
 The exact port (50949 in this case) may vary depending on your setup.
